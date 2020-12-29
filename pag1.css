@@ -1,6 +1,10 @@
 #mainbody{
-    height: auto;
+    viewport-fit: ;
+    height: 630px;
     max-width: 100%;
     background-color: rgb(204, 68, 68);
+}
+@viewport{
+    width: 100vw;
 }
 
