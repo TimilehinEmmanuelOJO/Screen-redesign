@@ -1,10 +1,31 @@
 #mainbody{
-    viewport-fit: ;
     height: 630px;
     max-width: 100%;
-    background-color: rgb(204, 68, 68);
+    background-color:rgb( 255,255,255,1);
 }
-@viewport{
-    width: 100vw;
+#submain{
+    position: absolute;
+    left: 700.39990234375px;
+    top: 0.9px;
+    height: 655px;
+    width: 664px;
+    background-color: rgb(217,81,41,1);
+    border-radius: 1%;
+}
+#log{
+    position: absolute;
+    height: 28px;
+    width: 117px;
+    left: 200px;
+    top: 10px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:  rgb(217,81,41,1);
 }
 
