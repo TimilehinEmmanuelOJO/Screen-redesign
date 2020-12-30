@@ -79,3 +79,34 @@
     letter-spacing: 0.31199997663497925px;
     text-align: right;
 }
+#be{
+    font-family: Raleway;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -0.5183998942375183px;
+    text-align: left;
+    position: absolute;
+    width: 351px;
+    height: 96px;
+    left: 165px;
+    top: 182.2px;
+    color: #525256;
+
+}
+#easy{
+    font-family: Raleway;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 48px;
+    letter-spacing: -0.5183998942375183px;
+    text-align: left;
+    position: absolute;
+    width: 351px;
+    height: 96px;
+    left: 330px;
+    top: 230.2px;
+    color: #1CA78B;
+}
