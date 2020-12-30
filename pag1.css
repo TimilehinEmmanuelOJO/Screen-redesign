@@ -16,7 +16,7 @@
     position: absolute;
     height: 28px;
     width: 117px;
-    left: 200px;
+    left: 170px;
     top: 10px;
     border-radius: nullpx;
     font-family: Raleway;
@@ -28,4 +28,54 @@
     text-align: left;
     color:  rgb(217,81,41,1);
 }
+#logo{
+    position: absolute;
+    height: 28px;
+    width: 117px;
+    left: 222px;
+    top: 10px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:  rgb(196, 196, 196);
+}
+#per{
+    position: absolute;
+    height: 17px;
+    width: 89px;
+    left: 410px;
+    top: 27px;
+    font-size: 14.4px;
+    border-radius: 0px;
+    width: 89px;
+    height: 17px;
+    color:rgb( 82,82,86,100);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.31199997663497925px;
+    text-align: right;
+}
 
+#bus{
+    position: absolute;
+    height: 17px;
+    width: 89px;
+    left: 550px;
+    top: 27px;
+    font-size: 14.4px;
+    border-radius: 0px;
+    width: 89px;
+    height: 17px;
+    color:rgb( 82,82,86,100);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.31199997663497925px;
+    text-align: right;
+}
