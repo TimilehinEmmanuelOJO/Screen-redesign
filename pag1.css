@@ -48,7 +48,7 @@
     position: absolute;
     height: 17px;
     width: 89px;
-    left: 410px;
+    left: 400px;
     top: 27px;
     font-size: 14.4px;
     border-radius: 0px;
@@ -61,12 +61,11 @@
     letter-spacing: 0.31199997663497925px;
     text-align: right;
 }
-
 #bus{
     position: absolute;
     height: 17px;
     width: 89px;
-    left: 550px;
+    left: 520px;
     top: 27px;
     font-size: 14.4px;
     border-radius: 0px;
@@ -129,7 +128,7 @@
 #pay{
     position: absolute;
     height: 84px;
-    width: 620px;
+    width: 600px;
     left: 165px;
     top: 425.8px;
     border-radius: 0px;
@@ -138,10 +137,11 @@
     border-bottom: red;
     border-top: red;
     border-color: teal;
+    box-sizing: border-box;
     }
 #fas{
     position: absolute;
-    left: 730.2px;
+    left: 715.2px;
     top: 460.2px;
     color: #979797;
     font-size: 29px;
@@ -150,9 +150,9 @@
     text-align: center;
 }
 ::placeholder{
-    position: absolute;
+    position: relative;
     height: 23px;
-    left: 100px;
+    left: 50px;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -160,4 +160,51 @@
     line-height: 23px;
     letter-spacing: 0.6px;
     color: #BCBCBC;
+}
+#q{
+    position: absolute;
+    height: 48px;
+    left: 185px; 
+    top: 611.2px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.2px;
+    line-height: 48px;
+    letter-spacing: 3.336px;
+    color: #000000;
+}
+#lit{
+    position: absolute;
+    left: 160px; 
+    top: 648.2px;
+    font-size: 19px;
+    color: #000000;
+}
+#jamb{
+    height: 53.71349334716797px;
+    width: 183.96084594726562px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    width: 184.8px;
+    height: 54px;
+    left: 561px;
+    top: 895.4px;
+}
+#air{
+    height: 53.71349334716797px;
+    width: 183.96084594726562px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    width: 184.8px;
+    height: 54px;
+    left: 561px;
+    top: 895.4px;
+}
+#elec{
+
 }
