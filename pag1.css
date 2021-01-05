@@ -86,6 +86,15 @@
     letter-spacing: 0.31199997663497925px;
     text-align: right;
 }
+#fix2{
+    position: fixed;
+    top: 0.0px;
+    left: 700px;
+    height: 80px;
+    width: 650px;
+    background-color: rgb(217, 81, 41);
+    z-index: 1;
+}
 #cog{
     position: absolute;
     left: 920px;
@@ -380,8 +389,8 @@
     height: 256.57px;
     left:884.6px;
     top:143.4px;
+    mix-blend-mode: normal;
     background: hsl(20, 84%, 65%);
-    mix-blend-mode:screen ;
     opacity: 0.3;
     border-radius: 9.6px;
 }
@@ -392,8 +401,8 @@
     left:884.6px;
     top:620.4px;
     background: hsl(20, 84%, 65%);
-    mix-blend-mode:screen ;
-    opacity: 0.3;
+    mix-blend-mode: normal ;
+    opacity: 0.3px;
     border-radius: 9.6px;
 }
 .d2{
@@ -408,17 +417,33 @@
 }
 #mon1{
     position: absolute;
-    width: 60.8px;
-    height: 63.2px;
-    left: 40.8px;
+    width: 50.8px;
+    height: 53.2px;
+    left: 140.8px;
+    top: 93.4px;
+    mix-blend-mode: lighten;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    opacity: 10;
+}
+#mon3{
+    position: absolute;
+    width: 50.8px;
+    height: 53.2px;
+    left: 140.8px;
     top: 93.4px;
     color: #FFFFFF;
     background-color: #FFFFFF;
-    opacity: 
+    opacity: 0.3;
 }
 #mon2{
-
+    position: absolute;
+    width: 50.8px;
+    height: 53.2px;
+    left: 140.8px;
+    top: 93.4px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    opacity: 0.3;
 }
-#mon3{
 
-}
