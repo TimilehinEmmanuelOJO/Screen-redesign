@@ -7,7 +7,7 @@
     position: absolute;
     left: 700.39990234375px;
     top: 0.9px;
-    height: 655px;
+    height: 1155px;
     width: 664px;
     background-color: rgb(217,81,41,1);
     border-radius: 1%;
@@ -78,6 +78,11 @@
     letter-spacing: 0.31199997663497925px;
     text-align: right;
 }
+#cog{}
+#int{}
+#abt{}
+#log{}
+#sign{}
 #be{
     font-family: Raleway;
     font-size: 38px;
@@ -216,4 +221,93 @@
     width: 174.8px;
     height: 54px;
     font-size: 16px; 
+}
+#set{
+    position: absolute;
+    width: 241px;
+    height: 54px;
+    left: 140px;
+    top: 768.6px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#fgn{
+    position: absolute;
+    width: 241px;
+    height: 54px;
+    left: 390.2px;
+    top: 768.6px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#inv{
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 140px;
+    top: 838.2px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#rec{
+    position: absolute;
+    width: 267px;
+    height: 54px;
+    left: 320.8px;
+    top: 838.2px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#up{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 140px;
+    top: 907.4px;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 5px;
+    font-size: 12px;
+}
+#fam{
+    position: absolute;
+    width: 280px;
+    height: 54px;
+    left: 380.2px;
+    top: 907.8px;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 5px;
+    font-size: 12px;
+}
+#sal{
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 140px;
+    top: 973.6px;
+    mix-blend-mode: normal;
+    opacity: 0.2; 
+    border-radius: 5px;
+    font-size: 10px;
+}
+#tax{
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 320.8px;
+    top: 973.4px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border-radius: 5px;
+    font-size: 10px;
+
 }
