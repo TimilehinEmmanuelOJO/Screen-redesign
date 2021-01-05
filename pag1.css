@@ -16,7 +16,7 @@
     position: absolute;
     height: 28px;
     width: 117px;
-    left: 170px;
+    left: 150px;
     top: 10px;
     border-radius: nullpx;
     font-family: Raleway;
@@ -32,7 +32,7 @@
     position: absolute;
     height: 28px;
     width: 117px;
-    left: 222px;
+    left: 202px;
     top: 10px;
     border-radius: nullpx;
     font-family: Raleway;
@@ -89,7 +89,7 @@
     position: absolute;
     width: 351px;
     height: 96px;
-    left: 165px;
+    left: 145px;
     top: 182.2px;
     color: #525256;
 
@@ -105,7 +105,7 @@
     position: absolute;
     width: 351px;
     height: 96px;
-    left: 325px;
+    left: 305px;
     top: 230.2px;
     color: #1CA78B;
 }
@@ -113,7 +113,7 @@
     position: absolute;
     height: 58px;
     width: 481.20001220703125px;
-    left: 165px;
+    left: 145px;
     top: 315.4px;
     border-radius: nullpx;     
     font-family: Raleway;
@@ -128,8 +128,8 @@
 #pay{
     position: absolute;
     height: 84px;
-    width: 600px;
-    left: 165px;
+    width: 610px;
+    left: 145px;
     top: 425.8px;
     border-radius: 0px;
     border: 4px solid teal;
@@ -141,7 +141,7 @@
     }
 #fas{
     position: absolute;
-    left: 715.2px;
+    left: 710.2px;
     top: 460.2px;
     color: #979797;
     font-size: 29px;
@@ -164,7 +164,7 @@
 #q{
     position: absolute;
     height: 48px;
-    left: 185px; 
+    left: 165px; 
     top: 611.2px;
     font-family: Raleway;
     font-style: normal;
@@ -176,35 +176,44 @@
 }
 #lit{
     position: absolute;
-    left: 160px; 
+    left: 140px; 
     top: 648.2px;
     font-size: 19px;
     color: #000000;
 }
 #jamb{
-    height: 53.71349334716797px;
-    width: 183.96084594726562px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    position: absolute;
-    width: 184.8px;
+    position: relative;
+    left: 140px;
+    top: 700.4px;
+    border-radius: 5px;
+    border-color: #EB6023;
+    color: #EB6023;
+    background-color: #ffffff;
+    width: 174.8px;
     height: 54px;
-    left: 561px;
-    top: 895.4px;
+    font-size: 16px;  
 }
 #air{
-    height: 53.71349334716797px;
-    width: 183.96084594726562px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    position: absolute;
-    width: 184.8px;
+    position: relative;
+    left: 140px;
+    top: 700.4px;
+    border-radius: 5px;
+    border-color: #EB6023;
+    color: #EB6023;
+    background-color: #ffffff;
+    width: 142.8px;
     height: 54px;
-    left: 561px;
-    top: 895.4px;
+    font-size: 16px; 
 }
 #elec{
-
+    position: relative;
+    left: 140px;
+    top: 700.4px;
+    border-radius: 5px;
+    border-color: #EB6023;
+    color: #EB6023;
+    background-color: #ffffff;
+    width: 174.8px;
+    height: 54px;
+    font-size: 16px; 
 }
