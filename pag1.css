@@ -12,6 +12,14 @@
     background-color: rgb(217,81,41,1);
     border-radius: 1%;
 }
+#fix{
+    position: fixed;
+    top: 0.0px;
+    height: 80px;
+    width: 600px;
+    background-color: #ffffff;
+    z-index: 1;
+}
 #log{
     position: absolute;
     height: 28px;
@@ -26,7 +34,7 @@
     line-height: 28px;
     letter-spacing: 0px;
     text-align: left;
-    color:  rgb(217,81,41,1);
+    color:  rgb(217, 81, 41);
 }
 #logo{
     position: absolute;
@@ -78,11 +86,67 @@
     letter-spacing: 0.31199997663497925px;
     text-align: right;
 }
-#cog{}
-#int{}
-#abt{}
-#log{}
-#sign{}
+#cog{
+    position: absolute;
+    left: 920px;
+    top: 45px;
+    width: 100px;
+    height: 15px;
+    color:#ffffff;
+}
+#int{
+    position: absolute;
+    left: 940px;
+    top: 32px;
+    width: 100px;
+    height: 15px;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: justify;
+    letter-spacing: 0.311px;
+    color: #ffffff;
+}
+#abt{
+    position: absolute;
+    left: 1040px;
+    top: 32px;
+    width: 100px;
+    height: 15px;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: justify;
+    letter-spacing: 0.311px;
+    color: #ffffff;}
+#login{
+    position: absolute;
+    left: 1120px;
+    top: 32px;
+    width: 87px;
+    height: 39px;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2.311px;
+    color: #ffffff;
+    background-color: rgb(217, 81, 41);
+    border-color: #ffffff;
+    border-width: 1px;
+}
+#sign{position: absolute;
+    left: 1215px;
+    top: 32px;
+    width: 87px;
+    height: 39px;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1.311px;
+    color: #ffffff;
+    background-color: rgb(217, 81, 41);
+    border-color: #ffffff;
+    border-width: 1px;}
 #be{
     font-family: Raleway;
     font-size: 38px;
@@ -309,5 +373,52 @@
     opacity: 0.2;
     border-radius: 5px;
     font-size: 10px;
+}
+.d1{
+    position: absolute;
+    width: 254.8px;
+    height: 256.57px;
+    left:884.6px;
+    top:143.4px;
+    background: hsl(20, 84%, 65%);
+    mix-blend-mode:screen ;
+    opacity: 0.3;
+    border-radius: 9.6px;
+}
+.d3{
+    position: absolute;
+    width: 254.8px;
+    height: 256.57px;
+    left:884.6px;
+    top:620.4px;
+    background: hsl(20, 84%, 65%);
+    mix-blend-mode:screen ;
+    opacity: 0.3;
+    border-radius: 9.6px;
+}
+.d2{
+    position: absolute;
+    width: 284.8px;
+    height: 256.57px;
+    left: 870.6px;
+    top: 390px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(161, 161, 161, 0.12), 0px 18px 26px rgba(119, 119, 119, 0.1), 0px 8px 42px rgba(133, 133, 133, 0.1);
+    border-radius: 9.6px;
+}
+#mon1{
+    position: absolute;
+    width: 60.8px;
+    height: 63.2px;
+    left: 40.8px;
+    top: 93.4px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    opacity: 
+}
+#mon2{
+
+}
+#mon3{
 
 }
