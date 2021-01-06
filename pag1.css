@@ -1,6 +1,6 @@
 #mainbody{
-    height: 630px;
-    max-width: 100%;
+    height: auto;
+    max-width: 700px;
     background-color:rgb( 255,255,255,1);
 }
 #submain{
@@ -20,6 +20,7 @@
     background-color: #ffffff;
     z-index: 1;
 }
+#sec{display: block;}
 #log{
     position: absolute;
     height: 28px;
@@ -57,7 +58,7 @@
     height: 17px;
     width: 89px;
     left: 400px;
-    top: 27px;
+    top: 40px;
     font-size: 14.4px;
     border-radius: 0px;
     width: 89px;
@@ -74,7 +75,7 @@
     height: 17px;
     width: 89px;
     left: 520px;
-    top: 27px;
+    top: 40px;
     font-size: 14.4px;
     border-radius: 0px;
     width: 89px;
@@ -106,7 +107,7 @@
 #int{
     position: absolute;
     left: 940px;
-    top: 32px;
+    top: 45px;
     width: 100px;
     height: 15px;
     font-size: 11px;
@@ -118,7 +119,7 @@
 #abt{
     position: absolute;
     left: 1040px;
-    top: 32px;
+    top: 45px;
     width: 100px;
     height: 15px;
     font-size: 11px;
@@ -445,5 +446,21 @@
     color: #FFFFFF;
     background-color: #FFFFFF;
     opacity: 0.3;
+}
+
+@media only screen and (max-width:700px){
+    html{
+        font-size: 5em;
+        }
+    #pay{
+        max-width: 300px;
+        margin: auto;
+    }
+    ::placeholder{
+        max-width: 300px;
+    }
+    #fas{
+        width: ;
+    }
 }
 
