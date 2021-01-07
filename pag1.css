@@ -1,7 +1,6 @@
-#mainbody{
-    height: auto;
-    max-width: 700px;
-    background-color:rgb( 255,255,255,1);
+body{
+    background: #FFFFFF;
+
 }
 #submain{
     position: absolute;
@@ -20,7 +19,6 @@
     background-color: #ffffff;
     z-index: 1;
 }
-#sec{display: block;}
 #log{
     position: absolute;
     height: 28px;
@@ -232,6 +230,7 @@
     position: relative;
     height: 23px;
     left: 50px;
+    max-width: auto;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -448,19 +447,84 @@
     opacity: 0.3;
 }
 
-@media only screen and (max-width:700px){
+@media screen and (max-width:700px){
     html{
-        font-size: 5em;
+        ont-size: 5em
         }
-    #pay{
-        max-width: 300px;
-        margin: auto;
+    body{
+        max-width: 100%;
+        background-color: orange;
     }
-    ::placeholder{
-        max-width: 300px;
+    #log{
+        position: absolute;
+        left: 50px;
+    }
+    #logo{
+        position: absolute;
+        left: 105px;
+    }
+    #per{
+        position: absolute;
+        left: 185px;
+    }
+    #bus{
+        position: absolute;
+        left: 285px;
+    }
+    #cog{
+        position: absolute;
+        left: 400px;
+        top: 80px;
+        color: rgb(217, 81, 41);
+    }
+    #int{
+        position: absolute;
+        left: 420px;
+        top: 80px;
+        color: rgb(217, 81, 41);
+    
+    }
+    #abt{
+        position: absolute;
+        left: 515px;
+        top: 80px;
+        color: rgb(217, 81, 41);
+    }
+    #login{
+        position: absolute;
+        left: 400px;
+    }
+    #sign{position: absolute;
+        left: 500px;
+    }
+    #be{
+        position: absolute;
+        left: 50px;
+        font-size: 30px;
+    }
+    #easy{
+        position: absolute;
+        left: 175px;
+        font-size: 30px;
+    }
+    #lorem{
+        position: absolute;
+        left: 50px;
+        top: 300px;
+        font-size: 20px;
+    }
+    #pay{
+        position: absolute;
+        left: 50px;
+        width: 500px;
     }
     #fas{
-        width: ;
+        position: absolute;
+        left: 500.2px;
+        top: 460.2px;
     }
-}
-
+    ::placeholder{
+        position: relative;
+        font-size: 15px;
+        width: 200px;
+    }
