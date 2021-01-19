@@ -444,12 +444,12 @@ body{
     top: 93.4px;
     color: #FFFFFF;
     background-color: #FFFFFF;
-    opacity: 0.3;
+    opacity: 0.3; 
 }
 
 @media screen and (max-width:700px){
     html{
-        ont-size: 5em
+        font-size: 5em
         }
     body{
         max-width: 100%;
