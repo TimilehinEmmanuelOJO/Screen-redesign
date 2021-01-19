@@ -447,41 +447,47 @@ body{
     opacity: 0.3; 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:520px){
     html{
-        font-size: 5em
+        ont-size: 5em
         }
     body{
         max-width: 100%;
-        background-color: orange;
+        background-color: rgb(243, 239, 232);
     }
     #log{
         position: absolute;
-        left: 50px;
+        left: 80px;
     }
     #logo{
         position: absolute;
-        left: 105px;
+        left: 135px;
     }
     #per{
         position: absolute;
-        left: 185px;
+        left: 245px;
+        top: 80px;
+        font-size: 12px;
+        display: none;
     }
     #bus{
         position: absolute;
-        left: 285px;
+        left: 340px; top: 80px;
+        font-size: 12px; display: none;
     }
     #cog{
         position: absolute;
-        left: 400px;
-        top: 80px;
+        left: 245px;
+        top: 103px;
         color: rgb(217, 81, 41);
+        display: none;
     }
     #int{
         position: absolute;
-        left: 420px;
-        top: 80px;
+        left: 265px;
+        top: 103px;
         color: rgb(217, 81, 41);
+        display: none;
     
     }
     #abt{
@@ -489,13 +495,14 @@ body{
         left: 515px;
         top: 80px;
         color: rgb(217, 81, 41);
+        display: none;
     }
     #login{
         position: absolute;
-        left: 400px;
+        left: 230px;
     }
     #sign{position: absolute;
-        left: 500px;
+        left: 330px;
     }
     #be{
         position: absolute;
@@ -515,16 +522,16 @@ body{
     }
     #pay{
         position: absolute;
-        left: 50px;
-        width: 500px;
+        left: 30px;
+        width: 400px;
     }
     #fas{
         position: absolute;
-        left: 500.2px;
+        left: 390.2px;
         top: 460.2px;
     }
     ::placeholder{
         position: relative;
-        font-size: 15px;
-        width: 200px;
+        font-size: 15px; left: 20px;
+        width: 100px;
     }
