@@ -415,37 +415,45 @@ body{
     box-shadow: 0px 5px 10px rgba(161, 161, 161, 0.12), 0px 18px 26px rgba(119, 119, 119, 0.1), 0px 8px 42px rgba(133, 133, 133, 0.1);
     border-radius: 9.6px;
 }
-#mon1{
-    position: absolute;
-    width: 50.8px;
-    height: 53.2px;
-    left: 140.8px;
-    top: 93.4px;
-    mix-blend-mode: lighten;
-    color: #FFFFFF;
-    background-color: #FFFFFF;
-    opacity: 10;
-}
-#mon3{
-    position: absolute;
-    width: 50.8px;
-    height: 53.2px;
-    left: 140.8px;
-    top: 93.4px;
-    color: #FFFFFF;
-    background-color: #FFFFFF;
-    opacity: 0.3;
-}
-#mon2{
-    position: absolute;
-    width: 50.8px;
-    height: 53.2px;
-    left: 140.8px;
-    top: 93.4px;
-    color: #FFFFFF;
-    background-color: #FFFFFF;
-    opacity: 0.3; 
-}
+    #circle{
+        position: relative;
+        left: 950px;
+        top: 150px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: hsl(20, 84%, 65%);
+    }
+    #semicircle{
+        position: relative;
+        left: 970px;
+        top: 300px;
+        width: 100px;
+        height: 50px;
+        border-radius: 100px 100px 0 0;
+        background-color: hsl(20, 84%, 65%);
+
+    }#semicircle2{
+        position: relative;
+        left: 970px;
+        top: 300px;
+        width: 100px;
+        height: 50px;
+        border-radius: 100px 100px 0 0;
+        background-color: hsl(20, 84%, 65%);
+
+    }
+    #triangle{
+        position: relative;
+        left: 970px;
+        top: 450px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px 0px 100px 0;
+        background-color: hsl(30, 4%, 20%);
+
+    }
+
 
 @media screen and (max-width:520px){
     html{
@@ -456,34 +464,28 @@ body{
         background-color: rgb(243, 239, 232);
     }
     #log{
-        position: absolute;
         left: 80px;
     }
     #logo{
-        position: absolute;
         left: 135px;
     }
     #per{
-        position: absolute;
         left: 245px;
         top: 80px;
         font-size: 12px;
         display: none;
     }
     #bus{
-        position: absolute;
         left: 340px; top: 80px;
         font-size: 12px; display: none;
     }
     #cog{
-        position: absolute;
         left: 245px;
         top: 103px;
         color: rgb(217, 81, 41);
         display: none;
     }
     #int{
-        position: absolute;
         left: 265px;
         top: 103px;
         color: rgb(217, 81, 41);
@@ -498,40 +500,33 @@ body{
         display: none;
     }
     #login{
-        position: absolute;
         left: 230px;
     }
-    #sign{position: absolute;
+    #sign{
         left: 330px;
     }
     #be{
-        position: absolute;
         left: 50px;
         font-size: 30px;
     }
     #easy{
-        position: absolute;
         left: 175px;
         font-size: 30px;
     }
     #lorem{
-        position: absolute;
         left: 50px;
         top: 300px;
         font-size: 20px;
     }
     #pay{
-        position: absolute;
         left: 30px;
         width: 400px;
     }
     #fas{
-        position: absolute;
         left: 390.2px;
         top: 460.2px;
     }
     ::placeholder{
-        position: relative;
         font-size: 15px; left: 20px;
         width: 100px;
     }
