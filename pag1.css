@@ -535,3 +535,94 @@ body{
         font-size: 15px; left: 20px;
         width: 100px;
     }
+    #q{
+        height: 48px;
+        left: 45px; 
+        top: 611.2px;
+       }
+    #lit{
+        left: 30px; 
+        top: 648.2px;
+    }
+    #jamb{
+        left: 30px;
+        height: 44px;
+        font-size: 12px;
+        width: 130px;  
+    }
+    #air{
+        left: 35px;
+        height: 44px;
+        width: 130px;
+        font-size: 12px; 
+    }
+    #elec{
+        left: 40px;
+        height: 44px;
+        width: 130px;
+        font-size: 12px; 
+    }
+    #set{
+        width:201px;
+        height: 44px;
+        top: 758.6px;
+        left: 30px;
+        font-size: 12px;
+    }
+    #fgn{
+        width: 201px;
+        height: 44px;
+        left: 240.2px;
+        top: 758.6px;
+        font-size: 12px;
+    }
+    #inv{
+        width: 130px;
+        height: 44px;
+        left: 30px;
+        top: 818.2px;
+        font-size: 12px;
+    }
+    #rec{
+        width: 230px;
+        height: 44px;
+        left: 170px;
+        top: 818.2px;
+        font-size: 12px;
+    }
+    #up{
+        width: 200px;
+        height: 44px;
+        left: 30px;
+        top: 877.4px;
+        font-size: 10px;
+    }
+    #fam{
+        width: 200px;
+        height: 44px;
+        left: 240.2px;
+        top: 877.4px;
+        font-size: 10px;
+    }
+    #sal{
+        position: absolute;
+        width: 170px;
+        height: 54px;
+        left: 140px;
+        top: 973.6px;
+        mix-blend-mode: normal;
+        opacity: 0.2; 
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    #tax{
+        position: absolute;
+        width: 170px;
+        height: 54px;
+        left: 320.8px;
+        top: 973.4px;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+        border-radius: 5px;
+        font-size: 10px;
+    }
