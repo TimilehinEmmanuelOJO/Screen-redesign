@@ -7,7 +7,7 @@ body{
     left: 700.39990234375px;
     top: 0.9px;
     height: 1155px;
-    width: 664px;
+    width: 800px;
     background-color: rgb(217,81,41,1);
     border-radius: 1%;
 }
@@ -387,7 +387,7 @@ body{
     position: absolute;
     width: 254.8px;
     height: 256.57px;
-    left:884.6px;
+    left:984.6px;
     top:143.4px;
     mix-blend-mode: normal;
     background: hsl(20, 84%, 65%);
@@ -398,7 +398,7 @@ body{
     position: absolute;
     width: 254.8px;
     height: 256.57px;
-    left:884.6px;
+    left:984.6px;
     top:620.4px;
     background: hsl(20, 84%, 65%);
     mix-blend-mode: normal ;
@@ -417,7 +417,7 @@ body{
 }
     #circle{
         position: relative;
-        left: 950px;
+        left: 1050px;
         top: 150px;
         width: 100px;
         height: 100px;
@@ -445,173 +445,12 @@ body{
     }
     #triangle{
         position: relative;
-        left: 970px;
+        left: 1070px;
         top: 450px;
         width: 100px;
         height: 100px;
         border-radius: 100px 0px 100px 0;
-        background-color: hsl(30, 4%, 20%);
+        background-color:  hsl(20, 38%, 25%);;
 
     }
 
-
-@media screen and (max-width:520px){
-    html{
-        ont-size: 5em
-        }
-    body{
-        max-width: 100%;
-        background-color: rgb(243, 239, 232);
-    }
-    #log{
-        left: 80px;
-    }
-    #logo{
-        left: 135px;
-    }
-    #per{
-        left: 245px;
-        top: 80px;
-        font-size: 12px;
-        display: none;
-    }
-    #bus{
-        left: 340px; top: 80px;
-        font-size: 12px; display: none;
-    }
-    #cog{
-        left: 245px;
-        top: 103px;
-        color: rgb(217, 81, 41);
-        display: none;
-    }
-    #int{
-        left: 265px;
-        top: 103px;
-        color: rgb(217, 81, 41);
-        display: none;
-    
-    }
-    #abt{
-        position: absolute;
-        left: 515px;
-        top: 80px;
-        color: rgb(217, 81, 41);
-        display: none;
-    }
-    #login{
-        left: 230px;
-    }
-    #sign{
-        left: 330px;
-    }
-    #be{
-        left: 50px;
-        font-size: 30px;
-    }
-    #easy{
-        left: 175px;
-        font-size: 30px;
-    }
-    #lorem{
-        left: 50px;
-        top: 300px;
-        font-size: 20px;
-    }
-    #pay{
-        left: 30px;
-        width: 400px;
-    }
-    #fas{
-        left: 390.2px;
-        top: 460.2px;
-    }
-    ::placeholder{
-        font-size: 15px; left: 20px;
-        width: 100px;
-    }
-    #q{
-        height: 48px;
-        left: 45px; 
-        top: 611.2px;
-       }
-    #lit{
-        left: 30px; 
-        top: 648.2px;
-    }
-    #jamb{
-        left: 30px;
-        height: 44px;
-        font-size: 12px;
-        width: 130px;  
-    }
-    #air{
-        left: 35px;
-        height: 44px;
-        width: 130px;
-        font-size: 12px; 
-    }
-    #elec{
-        left: 40px;
-        height: 44px;
-        width: 130px;
-        font-size: 12px; 
-    }
-    #set{
-        width:201px;
-        height: 44px;
-        top: 758.6px;
-        left: 30px;
-        font-size: 12px;
-    }
-    #fgn{
-        width: 201px;
-        height: 44px;
-        left: 240.2px;
-        top: 758.6px;
-        font-size: 12px;
-    }
-    #inv{
-        width: 130px;
-        height: 44px;
-        left: 30px;
-        top: 818.2px;
-        font-size: 12px;
-    }
-    #rec{
-        width: 230px;
-        height: 44px;
-        left: 170px;
-        top: 818.2px;
-        font-size: 12px;
-    }
-    #up{
-        width: 200px;
-        height: 44px;
-        left: 30px;
-        top: 877.4px;
-        font-size: 10px;
-    }
-    #fam{
-        width: 200px;
-        height: 44px;
-        left: 240.2px;
-        top: 877.4px;
-        font-size: 10px;
-    }
-    #sal{
-        width: 130px;
-        height: 44px;
-        left: 30px;
-        top: 930.6px;
-        font-size: 10px;
-    }
-    #tax{
-        width: 130px;
-        height: 44px;
-        left: 170.8px;
-        top: 930.4px;
-        font-size: 10px;
-    }
-
-}
